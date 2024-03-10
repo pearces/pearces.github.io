@@ -1,0 +1,61 @@
+#content {
+  display: flex;
+}
+
+.btn-group {
+  margin: 0.5em 0;
+  align-self: flex-start;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.25em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 0.5em 0 0;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.page {
+  margin-right: 0.5em;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.content-area {
+  margin: 0 auto;
+}
+
+#container {
+  border: 1px solid #bbb;
+}
