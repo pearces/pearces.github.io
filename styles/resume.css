@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
 #content {
   display: flex;
 }
@@ -11,7 +19,7 @@
   display: inline-block;
   padding: 0.5em 1em;
   font-size: 1em;
-  font-weight: bold;
+  font-weight: medium;
   text-align: center;
   text-decoration: none;
   border: none;
@@ -38,6 +46,7 @@
 
 .page {
   margin-right: 0.5em;
+  color: #555;
 }
 
 .btn-primary:hover {
